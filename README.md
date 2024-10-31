@@ -10,7 +10,7 @@ This project is a simple web page that allows users to enter a GitHub username a
 - Styled with CSS for a clean and modern look.
 
 ## Demo
-Check out the live demo [here](#).
+Check out the live demo [here](https://swadesh-c0de.github.io/Github-User-Info/).
 
 ## Installation
 1. **Clone the repository:**
