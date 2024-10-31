@@ -49,7 +49,7 @@ input {
 }
 
 #output-div {
-    width: 50%;
+    width: 80%;
     margin: 10px auto;
     padding: 5px;
     border: 2px solid rgb(70, 150, 230);
@@ -100,7 +100,13 @@ input {
     font-size: 20px;
 }
 
-a {
+.address {
+    margin: 10px -25px;
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+#profileA {
     border-radius: 15px;
     border: 1px solid rgb(60, 63, 66);
     padding: 5px;
@@ -109,7 +115,7 @@ a {
     margin: 10px 25px;
 }
 
-a:hover {
+#profileA:hover {
     border: 1px solid lightblue;
     color: lightblue;
     background-color: rgb(60, 63, 66);
@@ -118,15 +124,34 @@ a:hover {
 .bioDiv {
     grid-row: 2/3;
     grid-column: 1/3;
-    padding: 40px;
+    padding: 10px 40px;
 }
 
-span {
+#follow {
     font-weight: bold;
 }
 
-.address {
-    padding: 20px;
+.repoUList {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     grid-row: 3/4;
     grid-column: 1/3;
+    padding: 10px 40px;
+}
+
+.spanRepo {
+    margin: 10px -10px;
+    font-weight: 600;
+}
+
+#repoList { 
+    font-weight: 400;
+    color: rgb(60, 63, 66);
+    text-decoration: none;
+}
+
+#repoList:hover {
+    color:rgb(70, 150, 230);
 }
