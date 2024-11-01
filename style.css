@@ -55,7 +55,7 @@ input {
 }
 
 #output-div {
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
     padding: 10px;
     border: 2px solid rgb(70, 150, 230);
@@ -65,7 +65,7 @@ input {
     grid-gap: 10px;
     font-size: 18px;
     color: rgb(60, 63, 66);
-    overflow-y: auto;
+    overflow: auto;
 }
 
 .profile-img-div {
@@ -124,9 +124,9 @@ input {
 }
 
 #repoList:hover {
-    color: rgb(70, 150, 230);
+    color: rgb(60, 63, 66);
 }
-/* Responsive Design */
+
 @media (min-width: 768px) {
     #output-div {
         grid-template-columns: 1fr 1fr;
