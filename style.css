@@ -124,7 +124,7 @@ input {
 }
 
 #repoList:hover {
-    color: rgb(60, 63, 66);
+    color: white;
 }
 
 @media (min-width: 768px) {
