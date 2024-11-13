@@ -19,6 +19,10 @@ async function fetchData() {
         .then(response => response.json())
         .then(data => {
             home.removeChild(home.lastChild);
+            if(data.status==404){
+                alert("Profile of this username not found");
+                return;
+            }
             setData(data);
             console.log("Fetched Data ", data);
         })
